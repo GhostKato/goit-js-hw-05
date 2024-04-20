@@ -29,7 +29,7 @@ const allUsers = [
   }
 ];
 
-const getUsersWithFriend = (allUsers, friendName) => allUsers.filter(user => user.friends.includes(friendName));
+const getUsersWithFriend = (Users, friendName) => allUsers.filter(user => user.friends.includes(friendName));
 
 
 console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
